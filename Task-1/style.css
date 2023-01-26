@@ -1,0 +1,359 @@
+/* BODY */
+body {
+    margin: 0px;
+    font-family: Montserrat;
+}
+
+/* MAIN */
+.main {
+    background: black;
+}
+.ch_main {
+    width: 80%;
+    margin: auto;
+}
+
+/* NAVABAR */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.navbar .links a {
+    color: white;
+    padding: 0px 15px;
+}
+.navbar .logo img {
+    width: 110px;
+}
+.navbar .link a {
+    padding: 0px 16px;
+    color: white;
+    text-decoration: none;
+}
+
+/* DIVYESH'S CONTAINERS */
+.container-2 {
+    width: 100%;
+    display: inline-block;
+    margin-top: 6%;
+}
+.container-2 .left {
+    float: left;
+    width: 50%;
+}
+.container-2 .right {
+    float: left;
+    width: 50%;
+}
+.banner .container-2 img {
+    width: 100%;
+}
+
+/* BANNER */
+.banner .right img{
+    width: 100%;
+}
+.banner .buttons{
+    display: inline-block;
+    width: 100%;
+    margin-top: 3%;
+}
+.banner .left h4 {
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+    display: inline-block;
+}
+.banner .left h3 {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+}
+.banner .left h2 {
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+}
+.banner .left p {
+    color: #E63963;
+    font-size: 30px;
+    margin: 0px;
+}
+.banner .left h1 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.banner .left {
+    margin-top: 5%;
+}
+.banner .buttons a:nth-child(1) {
+    padding: 15px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    background: white;
+    color: #e63963;
+    font-weight: 700;
+    font-size: 15px;
+    margin-right: 3%;
+}
+.banner .buttons a:nth-child(2) {
+    padding: 15px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    background: #e63963;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/* FEATURED IN */
+.featuredin {
+    margin-top: 12%;
+    display: inline-block;
+}
+.featuredin h1 {
+    text-align: center;
+    color: white;
+}
+.container-4 .first {
+    width: 25%;
+    float: left;
+}
+.container-4 .second {
+    width: 25%;
+    float: left;
+}
+.container-4 .third {
+    width: 25%;
+    float: left;
+}
+.container-4 .fourth {
+    width: 25%;
+    float: left;
+}
+.featuredin img {
+    width: 100%;
+}
+
+/* PROUD */
+.proud{
+    margin-top: 10%;
+}
+.proud .container-2 .left img {
+    width: 400px;
+}
+.proud .container-2 .right img {
+    width: 300px;
+    border-radius:10px;
+}
+.proud .container-2 .right{
+    text-align: right;
+}
+.proud .container-2 {
+    display: flex;
+    align-items: center;
+}
+
+/* CONNECT */
+.connect .left img{
+    width: 50%;
+}
+.connect .left{
+    text-align: left;
+}
+.connect .right {
+    color: white;
+    margin-top: 6%;
+}
+.connect .right h2 {
+    font-weight: 300;
+}
+.connect .right h1{
+    font-size: 40px;
+}
+
+/* CONTROL */
+.control .right img{
+    width: 60%;
+}
+.control .right{
+    text-align: right;
+}
+.control .left {
+    color: white;
+    margin-top: 6%;
+}
+.control .left h2 {
+    font-weight: 300;
+}
+.control .left h1{
+    font-size: 40px;
+}
+
+/* REASON */
+.reason .left img{
+    width: 50%;
+}
+.reason .left{
+    text-align: left;
+}
+.reason .right {
+    color: white;
+    margin-top: 6%;
+}
+.reason .right h2 {
+    font-weight: 300;
+}
+.reason .right h1{
+    font-size: 40px;
+}
+
+/* ARTIST */
+.artist .right img{
+    width: 75%;
+}
+.artist .right{
+    text-align: left;
+}
+.artist .left {
+    color: white;
+    margin-top: 6%;
+    text-align: left;
+}
+.artist .left h2 {
+    font-weight: 300;
+}
+.artist .left h3 {
+    font-weight: 500;
+}
+.artist .left h1{
+    font-size: 40px;
+}
+.artist .left h3 a{
+    color: #E63963;
+    margin-right: 5px;
+}
+/* @media only screen and (min-width: 2000px)
+{
+    .ch_main{
+      width: 90%;
+      margin: auto;  
+    }
+}
+@media only screen and (min-width: 3000px)
+{
+    .ch_main{
+      width: 95%;
+      margin: auto;  
+    }
+} */
+/* JOIN THE MUSIC */
+.join .container-2 {
+    display: flex;
+    align-items: center;
+}
+.join .right {
+    color: white;
+    margin-top: 6%;
+    background: #e63963;
+    padding-left: 6%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    width: 50%;
+    float: left;
+    padding-right: 2%;
+}
+.join .right h1 {
+    font-size: 20px;
+}
+.join .right h2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0px;
+}
+.join .right h4 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 10%;
+}
+.join .left {
+    text-align: left;
+    width: 60%;
+    float: left;
+}
+.join .left img {
+    width: 50%;
+}
+.join .updown a:nth-child(6) {
+    padding: 15px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    background: white;
+    color: #e63963;
+    font-weight: 700;
+    font-size: 15px;
+    margin-right: 3%;
+}
+.join .updown a:nth-child(1) {
+    padding: 15px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    background:black;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+.join .updown{
+    display: inline-block;
+    width: 100%;
+    margin-top: 3%;
+}
+
+/* FOOTER */
+.footer{
+    background-image: linear-gradient(180deg, #000, #444);
+    padding-bottom: 5%;
+    padding-top: 12%;
+}
+.footer .right a {
+    margin: 0px 18px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.footer .left img {
+    width: 110px;
+}
+.footer .left span{
+    display: inline-block;
+    color: white;
+    margin-top: 35%;
+}
+.ch_footer{
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+}
+.footer .socials{
+    display: inline-block;
+    color: white;
+    float: right;
+    margin-top: 20%;
+}
+.footer .socials i{
+    font-size: 30px;
+    margin: 0px 10px;
+}
+.footer .left p{
+    color: white;
+}
+.footer .left i.fa-solid.fa-heart {
+    color: red;
+    margin: 0px 5px;
+}
