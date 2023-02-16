@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<title>Level 1 Task 3 - Temperature Converter</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- FONT FAMILY -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Kanit:wght@100;800;900&family=Martel+Sans:wght@900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+<body>
+<h1>Temperature Converter</h1>
+<div class="main">
+    <div class="f_to_c">
+        <p>
+            <label>Fahrenheit to Celcius :</label>
+            <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="f_to_cf(this.value)" onchange="f_to_cf(this.value)">
+          </p>
+          <p>Celcius: <span id="outputc"></span></p>
+    </div>
+    <div class="c_to_f">
+        <p>
+            <label>Celcius to Fahrenheit :</label>
+            <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="c_to_ff(this.value)" onchange="c_to_ff(this.value)">
+          </p>
+          <p>Fahrenheit : <span id="outputf"></span></p>
+    </div>
+</div>
+
+
+
+<script src="effect.js"></script>
+
+</body>
+</html>
